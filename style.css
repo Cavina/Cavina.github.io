@@ -366,6 +366,7 @@ nav .nav-bar .logo a {
     padding: 0px;
     background-color: rgb(45, 46, 50);
     margin-bottom: 20px;
+    margin: 10px;
 }
 
 .card h3 {
@@ -393,14 +394,16 @@ nav .nav-bar .logo a {
     flex: 1 1 50%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
-.card {
+/* .card {
     width: 45%;
-    /* Card styling */
     display: flex;
     height: 300px;
-}
+} */
 
 .card1 {
     align-self: flex-end;
@@ -418,6 +421,7 @@ nav .nav-bar .logo a {
     padding-top: 34px;
     height: 334px;
 }
+
 
 .card4 {
     padding-top: 0px;
@@ -447,6 +451,9 @@ nav .nav-bar .logo a {
     .content-section,
     .cards-section {
         flex: 1 1 100%;
+    }
+    .card3 {
+        padding-top: 0px;
     }
 }
 
