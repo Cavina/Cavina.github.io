@@ -367,6 +367,7 @@ nav .nav-bar .logo a {
     background-color: rgb(45, 46, 50);
     margin-bottom: 20px;
     margin: 10px;
+
 }
 
 .card h3 {
@@ -384,10 +385,13 @@ nav .nav-bar .logo a {
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .content-section {
     flex: 1 1 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards-section {
@@ -443,14 +447,23 @@ nav .nav-bar .logo a {
 }
 
 /* Media Query for smaller screen sizes */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .container {
         flex-direction: column;
     }
 
     .content-section,
     .cards-section {
+        justify-content: center;
         flex: 1 1 100%;
+        margin: 0 auto;
+    
+    }
+    .cards {
+        margin: 0 auto;
+    }
+    .card2 {
+        padding-bottom: 0px;
     }
     .card3 {
         padding-top: 0px;
