@@ -443,7 +443,7 @@ nav .nav-bar .logo a {
 }
 
 /* Media Query for smaller screen sizes */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .container {
         flex-direction: column;
     }
