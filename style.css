@@ -452,11 +452,13 @@ nav .nav-bar .logo a {
         flex-direction: column;
     }
 
-    .content-section,
     .cards-section {
+        display: flex;
         justify-content: center;
+        align-items: center;
         flex: 1 1 100%;
         margin: 0 auto;
+        padding-right: 33%;
     
     }
     .cards {
