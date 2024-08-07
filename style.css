@@ -295,7 +295,42 @@ nav .nav-bar .logo a {
         padding: 0;
         text-align: center;
     }
+    
+    .skillsdelt .flex-wrap {
+        flex-direction: column-reverse;
+    }
+    
+    .container.skillsdelt.mt-20.pt-16 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #leftSection { 
+        order: 2;
+    }
+
+    #rightSection {
+        order: 1;
+        margin-bottom: 0;
+    }
+    #leftSection1 { 
+        order: 2;
+    }
+
+    #rightSection1 {
+        order: 1;
+    }
+
+    #leftSection2 {
+        order: 2;
+    }
+
+    #rightSection2 {
+        order: 1;
+    }
+    
 }
+
 
 /* cards section styles */
 
@@ -364,6 +399,7 @@ nav .nav-bar .logo a {
 .card {
     width: 45%;
     padding: 0px;
+    display: flex;
     background-color: rgb(45, 46, 50);
     margin-bottom: 20px;
     margin: 10px;
@@ -385,14 +421,15 @@ nav .nav-bar .logo a {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 .content-section {
     flex: 1 1 50%;
-    justify-content: center;
     align-items: center;
+    
 }
+
 
 .cards-section {
     flex: 1 1 50%;
@@ -453,6 +490,11 @@ nav .nav-bar .logo a {
         align-items: center;
     }
 
+    .content-section.paragraph {
+        padding: 0px;
+        
+    }
+
     .cards-section {
         display: flex;
         flex-direction: column;
@@ -468,7 +510,7 @@ nav .nav-bar .logo a {
     .card {
         /*margin: 0 auto;*/
         align-items: center;
-        padding-left: 10px;
+        padding-left: 35px;
 
        
     }
