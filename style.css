@@ -820,9 +820,10 @@ span.text {
     background-color: #25262a;
     display: flex;
     height: 132px;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 
 }
 .otheracc{
