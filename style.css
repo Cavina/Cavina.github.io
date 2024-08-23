@@ -169,24 +169,16 @@ nav .navLogo {
 
 @media (max-width: 790px) {
     nav .nav-bar .sidebarOpen {
-        display: block;
+        display: none;
         color: #e2e3e6;
     }
 
     .menu {
-        position: fixed;
-        height: 100%;
-        width: 320px;
-        left: -100%;
-        top: 0;
-        padding: 20px;
-        background-color: var(--side-nav);
-        z-index: 100;
-        transition: all 0.4s ease;
+        display: none
     }
 
     #conbtn {
-        display: none;
+        display: block;
     }
 
     nav.active .menu {
