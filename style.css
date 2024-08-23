@@ -834,4 +834,12 @@ span.text {
     .otheracc{
         width: 24%;
     }
+
+}
+
+@media screen and (max-width: 768px) {
+    .infoo {
+        font-size: smaller;
+        text-wrap:nowrap
+    }
 }
