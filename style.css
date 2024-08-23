@@ -15,7 +15,7 @@
 :root {
     --body-color: #2d2e32;
     --nav-color: #2d2e32;
-    --side-nav: #e2e3e6;
+    --side-nav: #404145;
     --text-color: #FFF;
     --search-text: #010718;
     
@@ -65,7 +65,7 @@ nav .nav-bar {
 
 nav .nav-bar .sidebarOpen {
     color: var(--text-color);
-    font-size: 25px;
+    font-size: 25px; 
     padding: 5px;
     cursor: pointer;
     display: none;
@@ -77,6 +77,8 @@ nav .nav-bar .logo a {
     color: var(--text-color);
     text-decoration: none;
 }
+
+
 
 .menu .logo-toggle {
     display: none;
