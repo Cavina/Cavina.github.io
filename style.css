@@ -15,7 +15,7 @@
 :root {
     --body-color: #2d2e32;
     --nav-color: #2d2e32;
-    --side-nav: #e2e3e6;
+    --side-nav: #404145;
     --text-color: #FFF;
     --search-text: #010718;
     
@@ -44,6 +44,7 @@ nav {
     z-index: 100;
 }
 
+
 body.dark nav {
     border: 1px solid #393838;
 
@@ -64,7 +65,7 @@ nav .nav-bar {
 
 nav .nav-bar .sidebarOpen {
     color: var(--text-color);
-    font-size: 25px;
+    font-size: 25px; 
     padding: 5px;
     cursor: pointer;
     display: none;
@@ -77,14 +78,22 @@ nav .nav-bar .logo a {
     text-decoration: none;
 }
 
+
+
 .menu .logo-toggle {
     display: none;
+}
+
+nav .navLogo {
+    margin-left: -75px;
 }
 
 .nav-bar .nav-links {
     display: flex;
     align-items: center;
 }
+
+
 
 .nav-bar .nav-links li {
     margin: 0 5px;
