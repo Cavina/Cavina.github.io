@@ -184,6 +184,7 @@ nav .navLogo {
         display: flex;
         font-size: smaller;
         white-space: nowrap;
+        padding: 1em 2em; 
     }
 
     nav.active .menu {
