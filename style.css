@@ -139,6 +139,9 @@ nav .navLogo {
     font-size: 17px;
     font-weight: 600;
     padding: 1em 2em;
+    /* position: fixed;
+    top: 1vh;
+    right: 2vw; */
     cursor: pointer;
     /* transition: all 0.3s ease-in-out; */
     /* border: 1px solid black; */
@@ -178,7 +181,7 @@ nav .navLogo {
     }
 
     #conbtn {
-        display: block;
+        display: flex;
         font-size: smaller;
         white-space: nowrap;
     }
