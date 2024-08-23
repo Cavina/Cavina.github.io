@@ -184,7 +184,6 @@ nav .navLogo {
         display: flex;
         font-size: smaller;
         white-space: nowrap;
-        position: fixed;
         top: 1vh;
         right: 5vw;
         
