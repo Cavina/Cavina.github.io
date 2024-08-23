@@ -179,7 +179,8 @@ nav .navLogo {
 
     #conbtn {
         display: block;
-        font-size:smaller;
+        font-size: smaller;
+        white-space: nowrap;
     }
 
     nav.active .menu {
