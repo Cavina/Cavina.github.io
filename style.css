@@ -848,4 +848,8 @@ span.text {
         font-size: x-small;
         
     }
+    
+    #hire_section{
+        padding: 0 !important; 
+    }
 }
