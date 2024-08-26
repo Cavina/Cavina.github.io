@@ -830,18 +830,22 @@ span.text {
 }
 .otheracc{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 
 @media screen and (min-width: 768px) {
     .otheracc{
-        width: 24%;
+        width: 5%;
     }
 
 }
 
 @media screen and (max-width: 768px) {
     .infoo {
+        text-align: center;
+        width: 100%;
+        padding:50px;
         font-size: x-small;
+        
     }
 }
