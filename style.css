@@ -718,41 +718,6 @@ button:hover .star-6 {
     fill: #FFFDEF
 }
 /* counter of rewards bla bla dashbord */
-.wrapperx {
-    /* position:relative;
-    width: 70vw;
-    transform: translate(-50%, -50%);
-    top: 15%;
-    left: 50%;
-    display: flex;
-    justify-content: center;
-    gap: 4px; */
-    gap: 4px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    height: 400px;
-}
-.containerx {
-    width: 41vmin;
-    height: 43vmin;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 1em 0;
-    position: relative;
-    font-size: 16px;
-    /* border-radius: 0.5em; */
-    background-color: #21242b;
-
-}
-.num1{
-     border-radius: 40px 0 0 40px;
-}
-.num2{
-    border-radius: 0 40px 40px 0;
-}
 
 i {
     color: #18f98f;
@@ -777,50 +742,16 @@ span.text {
     line-height: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    /* .wrapperx {
-        width: 85vw;
-    } */
 
-    .containerx {
-        /* height: 26vmin;
-        width: 26vmin; */
-        font-size: 12px;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .wrapperx {
-        /* width: 90vw; */
-        /* flex-wrap: wrap; */
-        /* gap: 30px; */
-    }
-
-    .containerx {
-        /* width: calc(50% - 40px);
-        height: 30vmin; */
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .wrapperx {
-        /* gap: 15px; */
-    }
-
-    .containerx {
-        /* width: 100%;
-        height: 25vmin; */
-        font-size: 8px;
-    }
-}
 /* footer  */
 .footer1 {
     margin-top: 34px;
     background-color: hsl(228, 6%, 15%);
     display: flex;
     height: 132px;
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
