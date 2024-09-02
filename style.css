@@ -138,7 +138,7 @@ nav .navLogo {
     border-radius: 1em;
     font-size: 17px;
     font-weight: 600;
-    padding: 1em 2rem;
+    padding: 1em 2em;
     /* position: fixed;
     top: 1vh;
     right: 2vw; */
@@ -170,7 +170,7 @@ nav .navLogo {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 790px) {
     nav .nav-bar .sidebarOpen {
         display: none;
         color: #e2e3e6;
@@ -184,8 +184,8 @@ nav .navLogo {
         display: flex;
         font-size: smaller;
         white-space: nowrap;
-        /* top: 1vh;
-        right: 1vw; */
+        top: 1vh;
+        right: 1vw;
         
     }
 
@@ -745,9 +745,9 @@ span.text {
 
 
 /* footer  */
-.footer1 {
+.footer1{ 
     margin-top: 34px;
-    background-color: hsl(228, 6%, 15%);
+    background-color: #25262a;
     display: flex;
     height: 132px;
     width: 100%;
@@ -756,42 +756,27 @@ span.text {
     align-items: center;
     justify-content: space-between;
     position: relative;
-}
 
-.logo_sec {
-    flex: 1;
 }
-
-.infoo {
-    flex: 2;
-    text-align: center;
-    color: white;
-}
-
-.otheracc {
-    flex: 1;
+.otheracc{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content:space-evenly;
 }
 
-.otheracc .elementor-grid-item {
-    margin: 0 5px; /* Adjust spacing between icons */
-    padding: 0 0;
+@media screen and (min-width: 768px) {
+    .otheracc{
+        width: 5%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
     .infoo {
-        padding: 20px; /* Reduce padding for smaller screens */
-        font-size: small; /* Adjust font size */
+        text-align: center;
+        width: 100%;
+        padding:50px;
+        font-size: x-small;
+        
     }
-
-    /* .otheracc {
-        flex-direction: column; 
-        padding: 10px;
-    } */
-
-    .otheracc .elementor-grid-item {
-        margin: 10px 0; /* Space out icons when stacked vertically */
-    }
+    
 }
